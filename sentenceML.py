@@ -41,3 +41,4 @@ file.close()
 
 ngrams = setup(lyrics)
 result = markov(lyrics, ngrams)
+print(result)
